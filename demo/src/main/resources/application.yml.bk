@@ -1,0 +1,9 @@
+# server port change
+server.port=8080
+# context root change
+server.servlet.context-path=/boot
+
+spring.datasource.hikari.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.hikari.jdbc-url=jdbc:mysql://{url}:{port}/{db}
+spring.datasource.hikari.username={id}
+spring.datasource.hikari.password={password}
